@@ -42,8 +42,8 @@ uphold this code. Please report unacceptable behavior to the maintainers.
 
 ## Ways to Contribute
 
-- **Report a bug** — open a [bug report](https://github.com/maldevs-io/mal-ui/issues/new?template=bug_report.yml).
-- **Suggest a feature** — open a [feature request](https://github.com/maldevs-io/mal-ui/issues/new?template=feature_request.yml).
+- **Report a bug** — open a [bug report](https://github.com/MAnasLatif/mal-ui/issues/new?template=bug_report.yml).
+- **Suggest a feature** — open a [feature request](https://github.com/MAnasLatif/mal-ui/issues/new?template=feature_request.yml).
 - **Improve docs** — fix typos, clarify usage, add examples.
 - **Submit code** — pick up an open issue or propose a change (please open an issue first for larger changes).
 
@@ -68,7 +68,7 @@ git clone https://github.com/<your-username>/mal-ui.git
 cd mal-ui
 
 # 2. Add the upstream remote
-git remote add upstream https://github.com/maldevs-io/mal-ui.git
+git remote add upstream https://github.com/MAnasLatif/mal-ui.git
 
 # 3. Install dependencies
 bun install --frozen-lockfile
@@ -217,7 +217,7 @@ docs(readme): clarify peer dependency installation
 2. **Make your changes** and add/adjust tests where relevant.
 3. **Run the full check suite** locally (lint, typecheck, test, build).
 4. **Commit** using the convention above.
-5. **Push** to your fork and **open a pull request** against `maldevs-io/mal-ui:main`.
+5. **Push** to your fork and **open a pull request** against `MAnasLatif/mal-ui:main`.
 6. Fill out the PR template completely and link any related issues.
 7. Ensure **all CI checks pass**. A maintainer will review your PR.
 8. Address review feedback by pushing additional commits to the same branch.
@@ -231,15 +231,15 @@ merges smoother.
 
 Before filing a bug, please:
 
-1. Search [existing issues](https://github.com/maldevs-io/mal-ui/issues) to avoid duplicates.
+1. Search [existing issues](https://github.com/MAnasLatif/mal-ui/issues) to avoid duplicates.
 2. Confirm you can reproduce it on the latest version.
-3. Open a [bug report](https://github.com/maldevs-io/mal-ui/issues/new?template=bug_report.yml) with a minimal reproduction.
+3. Open a [bug report](https://github.com/MAnasLatif/mal-ui/issues/new?template=bug_report.yml) with a minimal reproduction.
 
 ---
 
 ## Requesting Features
 
-Open a [feature request](https://github.com/maldevs-io/mal-ui/issues/new?template=feature_request.yml)
+Open a [feature request](https://github.com/MAnasLatif/mal-ui/issues/new?template=feature_request.yml)
 describing the problem you're trying to solve, your proposed solution, and any
 alternatives you've considered.
 

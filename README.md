@@ -1,6 +1,6 @@
 # mal-ui
 
-[![CI](https://github.com/maldevs-io/mal-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/maldevs-io/mal-ui/actions/workflows/ci.yml)
+[![CI](https://github.com/MAnasLatif/mal-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/MAnasLatif/mal-ui/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/mal-ui.svg)](https://www.npmjs.com/package/mal-ui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
@@ -52,7 +52,7 @@ This repo ships a bundled agent skill in [`skills/mal-ui`](./skills/mal-ui) that
 Add it to your project with [skills.sh](https://www.skills.sh/):
 
 ```bash
-npx skills add maldevs-io/mal-ui
+npx skills add MAnasLatif/mal-ui
 ```
 
 This installs the `mal-ui` skill into your AI assistant so it follows the

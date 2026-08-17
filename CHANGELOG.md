@@ -24,5 +24,5 @@ commit messages. Maintainers should update this file as part of every release.
 - Bun build pipeline for JavaScript, CSS, and TypeScript declarations.
 - Next.js demo app covering every public subpath.
 
-[Unreleased]: https://github.com/maldevs-io/mal-ui/compare/v0.1.5...HEAD
-[0.1.5]: https://github.com/maldevs-io/mal-ui/releases/tag/v0.1.5
+[Unreleased]: https://github.com/MAnasLatif/mal-ui/compare/v0.1.5...HEAD
+[0.1.5]: https://github.com/MAnasLatif/mal-ui/releases/tag/v0.1.5

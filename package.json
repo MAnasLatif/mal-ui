@@ -4,13 +4,13 @@
   "description": "MAL UI — open-source React component library for MAL Devs",
   "license": "MIT",
   "author": "MAL Devs",
-  "homepage": "https://github.com/maldevs-io/mal-ui#readme",
+  "homepage": "https://github.com/MAnasLatif/mal-ui#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maldevs-io/mal-ui.git"
+    "url": "git+https://github.com/MAnasLatif/mal-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/maldevs-io/mal-ui/issues"
+    "url": "https://github.com/MAnasLatif/mal-ui/issues"
   },
   "type": "module",
   "private": false,

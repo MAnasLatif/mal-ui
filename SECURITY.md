@@ -15,7 +15,7 @@ vulnerabilities until the maintainers have reviewed the report.
 
 Use GitHub private vulnerability reporting:
 
-<https://github.com/maldevs-io/mal-ui/security/advisories/new>
+<https://github.com/MAnasLatif/mal-ui/security/advisories/new>
 
 If that is not available, open a minimal public issue asking for a private
 maintainer contact path. Do not include exploit details, secrets, tokens, or
