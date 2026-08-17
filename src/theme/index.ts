@@ -1,8 +1,8 @@
-import { type MantineThemeOverride, createTheme, virtualColor } from '@mantine/core';
+import { createTheme, type MantineThemeOverride, virtualColor } from '@mantine/core';
 import {
   malBreakpoints,
-  malColorTokens,
   malColors,
+  malColorTokens,
   malFontSizes,
   malLineHeights,
   malRadiusTokens,

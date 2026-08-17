@@ -5,15 +5,10 @@ import {
   Button,
   Card,
   Code,
-  ColorSwatch,
   Group,
   Kbd,
-  List,
-  NumberInput,
   Paper,
-  Progress,
   SimpleGrid,
-  Slider,
   Stack,
   Text,
   TextInput,
@@ -24,7 +19,6 @@ import {
   useClipboard,
   useColorScheme,
   useCounter,
-  useDebouncedCallback,
   useDebouncedState,
   useDebouncedValue,
   useDisclosure,
@@ -42,9 +36,9 @@ import {
   useHover,
   useId,
   useIdle,
-  useInViewport,
   useInputState,
   useInterval,
+  useInViewport,
   useIsFirstRender,
   useListState,
   useLocalStorage,
@@ -77,7 +71,7 @@ import {
   useWindowEvent,
   useWindowScroll,
 } from 'mal-ui/hooks';
-import { useCallback, useRef, useState } from 'react';
+import { useState } from 'react';
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
@@ -104,7 +98,6 @@ export default function HooksPage() {
   const [value, setValue] = useState('');
   const [debounced] = useDebouncedValue(value, 400);
   const [debouncedState, setDebouncedState] = useDebouncedState('', 400);
-  const debouncedCallback = useDebouncedCallback((v: string) => v, 400);
   const [throttled] = useThrottledValue(value, 500);
   const previous = usePrevious(value);
   const [uncontrolled, setUncontrolled] = useUncontrolled({
@@ -124,7 +117,7 @@ export default function HooksPage() {
   const setHook = useSet<string>(['react', 'mantine']);
   const queueHook = useQueue<string>({ initialValues: ['First', 'Second'], limit: 3 });
   const [stateObj, setStateObj] = useSetState({ name: 'Anas', age: 25 });
-  const [historyValue, historyHandlers, { history, current }] = useStateHistory(0);
+  const [historyValue, historyHandlers] = useStateHistory(0);
 
   // ─── Storage ────────────────────────────────────────────────
   const [stored, setStored] = useLocalStorage({ key: 'mal-demo-hooks', defaultValue: 'hello' });
